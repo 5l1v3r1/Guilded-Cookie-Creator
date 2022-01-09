@@ -42,9 +42,9 @@ class Guilded(object):
         generating_stag = hashlib.md5(email_format.encode())
         stag = generating_stag.hexdigest()
 
-        logging.info("Received Client ID {}-> {}{}".format(self.colors["reset"], self.colors["red"], client_id))
-        logging.info("Received Device ID {}-> {}{}".format(self.colors["reset"], self.colors["red"], device_id))
-        logging.info("Received Stag {}-> {}{}".format(self.colors["reset"], self.colors["red"], stag))
+        logging.info("Obtained Client ID {}-> {}{}".format(self.colors["reset"], self.colors["red"], client_id))
+        logging.info("Obtained Device ID {}-> {}{}".format(self.colors["reset"], self.colors["red"], device_id))
+        logging.info("Obtained Stag {}-> {}{}".format(self.colors["reset"], self.colors["red"], stag))
 
         return {
             'Content-Type': 'application/json',
@@ -79,8 +79,8 @@ class Guilded(object):
                             cookies = str(response.cookies)
                             session = cookies.split('hmac_signed_session=')[1].split(';')[0]
                             logging.info("Created {}-> {}{}************".format(self.colors["reset"], self.colors["red"], session[:22]))
-                            with open("data/cookies.txt", "w") as r:
-                                r.write("{}\n".format(session))
+                            async with open("data/cookies.txt", "w") as r:
+                                await r.write("{}\n".format(session))
                             return session
                         else:
                             pass
