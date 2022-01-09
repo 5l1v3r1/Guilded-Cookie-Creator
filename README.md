@@ -23,5 +23,6 @@
 ### **Upcoming**
 - Email Verifier
 - Raid Kit
+- Much More <3
 
 Proof of concept & Educational Purposes only.
