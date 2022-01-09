@@ -6,7 +6,7 @@
 - Multi Tasked
 - Randomized stag on each generation
 - Randomized client id on each generation
-- Randomized device id on each generator
+- Randomized device id on each generation
 - Proxy support (socks4/socks5/http)
 
 ---------------------------------------
