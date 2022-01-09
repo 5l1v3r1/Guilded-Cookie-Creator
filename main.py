@@ -1,3 +1,4 @@
+#credit to fweak for the "stag" generator <3
 import asyncio
 import aiohttp
 import os
