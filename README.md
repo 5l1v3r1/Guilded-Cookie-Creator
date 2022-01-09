@@ -1,4 +1,4 @@
-# Guilded Cookie Creator [Under Maintence]
+# Guilded Cookie Creator
 
 ### **Optimizations**
 - Asynchronous
