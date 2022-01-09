@@ -19,4 +19,9 @@
 
 <img src="https://media.discordapp.net/attachments/923861758324670495/927512448012013638/Screenshot_68.png?width=854&height=484"/>
 
+---------------------------------------
+### **Upcoming**
+- Email Verifier
+- Raid Kit
+
 Proof of concept & Educational Purposes only.
