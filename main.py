@@ -32,8 +32,6 @@ class Guilded(object):
 
         with open("data/proxies.txt", encoding="utf-8") as f:
             self.proxies = [i.strip() for i in f]
-        
-        self.proxy_format = "{}://{}".format(self.proxy_type, random.choice(self.proxies))
     
     def get_headers(self, email: str):
         client_id = str(uuid.uuid1())
