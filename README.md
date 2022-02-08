@@ -1,4 +1,4 @@
-# Guilded Cookie Creator [fuck guilded i quit working on this, they patch like every fucking method after 2/3 days i release shit]
+# Guilded Cookie Creator [update soon]
 
 ### **Optimizations**
 - Asynchronous
